@@ -5,10 +5,11 @@ class Course
   
   @@all_courses = []
   
-  def initialize# (title, schedule, description)
+  def initialize
     @title = title
     @schedule = schedule
     @description = description
+    binding.pry
     @@all_courses << self
   end
   
