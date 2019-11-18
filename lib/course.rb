@@ -16,5 +16,9 @@ class Course
     @@all_courses
   end
   
+  def self.reset_all
+    @@all_courses = []
+  end
+  
 end
 
