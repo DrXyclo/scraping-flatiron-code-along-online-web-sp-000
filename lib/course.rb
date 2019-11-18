@@ -11,7 +11,7 @@ class Course
   end
   
   def title(title)
-    
+    binding.pry
     @title
   end
   
