@@ -3,7 +3,7 @@ require 'pry'
 class Course
   attr_accessor :title, :schedule, :description
   
-  @@course_class = []
+  @@all_courses = []
   
   def initialize# (title, schedule, description)
     @title = title
@@ -23,7 +23,7 @@ class Course
   
   def self.all 
     binding.pry
-    @@course_class
+    @@all_courses
   end
   
 end
