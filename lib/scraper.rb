@@ -17,6 +17,9 @@ class Scraper
   end
   
   def get_page
+    
+    html = open("https://flatironschool.com/free-courses/coding-bootcamp-prep")
+    doc = Nokogiri::HTML(html)
   end
   
 end
