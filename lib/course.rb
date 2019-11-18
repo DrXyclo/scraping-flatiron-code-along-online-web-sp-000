@@ -12,7 +12,7 @@ class Course
     @@all_courses << self
   end
   
-  def title(title)
+  def title
     binding.pry
     @title
   end
