@@ -22,6 +22,7 @@ class Course
   end
   
   def self.all 
+    binding.pry
     @@course_class
   end
   
